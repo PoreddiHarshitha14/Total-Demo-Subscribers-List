@@ -109,7 +109,6 @@ body {
   color: #000;
   font-weight: 400;
   transition: all 0.3s ease;
-  /* background: linear-gradient(90deg, #f8fafc 80%, #e0e7ff 100%); */
   border: 1.5px solid #c7d2fe;
   box-shadow: 0 1px 4px rgba(110,142,251,0.06);
 }
@@ -177,7 +176,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Updated Search Bar Styles - Left Aligned */
 .list-header {
   display: flex;
   justify-content: space-between;
@@ -214,7 +212,6 @@ body {
   border: 1px solid #ddd;
   font-size: 1rem;
   transition: all 0.3s ease;
-  /* background: linear-gradient(90deg, #f8fafc 80%, #e0e7ff 100%); */
   border: 1.5px solid #c7d2fe;
   box-shadow: 0 1px 4px rgba(110,142,251,0.06);
 }
@@ -308,7 +305,7 @@ tr:hover {
 .view-btn { color: #1bbf5c; }
 .view-btn:hover { color: #0e7c37; }
 
-/* Enhanced Details Modal */
+/*Modal Styling */
 .details-modal {
   position: fixed;
   top: 0;
@@ -456,7 +453,7 @@ tr:hover {
   box-shadow: 0 6px 12px rgba(220, 38, 38, 0.3);
 }
 
-/* Example icon color classes for info rows */
+/* icon color classes  */
 .details-card .icon-user { 
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   -webkit-background-clip: text;
@@ -507,7 +504,7 @@ tr:hover {
   scrollbar-width: none;
 }
 
-/* Hide scrollbar for Chrome/Safari */
+/* Hide scrollbar  */
 .tabs::-webkit-scrollbar {
   display: none;
 }
@@ -525,8 +522,8 @@ tr:hover {
   transition: color 0.2s, background 0.2s;
   position: relative;
   border-radius: 14px 14px 0 0;
-  white-space: nowrap; /* Prevent text wrapping */
-  margin: 0; /* Remove margin-left */
+  white-space: nowrap;
+  margin: 0;
 }
 
 .tab:hover,
